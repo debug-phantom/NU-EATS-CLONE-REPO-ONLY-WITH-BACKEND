@@ -1,0 +1,148 @@
+.CartContainer {
+    width: 400px;
+    height: 100vh;
+    padding: 0 15px;
+}
+
+.CartHeader {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    height: 7%;
+}
+
+hr {
+    border-top: 1.5px solid #D9D9D9;
+    padding: 0;
+    margin: 0;
+}
+
+.CloseButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 50%;
+    width: 12%;
+    aspect-ratio: 1 / 1;
+    font-size: 23px;
+}
+
+.Basket {
+    display: flex;
+    width: 85%;
+    justify-content: end;
+    align-items: center;
+}
+
+#basket-title {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.CartBody {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+    height: 85%;
+}
+
+.CartFooter {
+    display: flex;
+    align-items: center;
+    padding: 8px 0;
+    height: 7%;
+}
+
+.Price {
+    display: flex;
+    width: 75%;
+    justify-content: start;
+    align-items: center;
+}
+
+#price-label {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+.CheckoutButton {
+    width: 25%;
+    height: 30px;
+    background-color: #2C3C94;
+    border: none;
+    border-radius: 5px;
+    color: #F5F5F5;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+.CartItem {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.Itemdiv {
+    height: 100%;
+    padding: 0 7px;
+    display: flex;
+    align-items: center;
+}
+
+.QuantityDiv {
+    width: 25%;
+}
+
+.ItemNameDiv {
+    width: 50%;
+    border-right: solid 1.8px #D9D9D9;
+    border-left: solid 1.8px #D9D9D9;
+}
+
+.ItemPriceDiv {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+}
+
+.QuantityButton {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 5px;
+    width: 33.33%;
+}
+
+.Quantity {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    width: 33.33%;
+    text-align: center;
+}
+
+.ItemName {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.ItemPrice {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}

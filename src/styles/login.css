@@ -1,0 +1,122 @@
+#LoginGrid {
+    display: flex;
+    height: 100vh;
+}
+
+#ImageSection {
+    width: 52%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#BackgroundImage {
+    height: 80%;
+}
+
+#LoginSection {
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#InnerBox {
+    width: 60%;
+    height: 77%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#LogoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 14%;
+}
+
+#TextDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 29%;
+}
+
+#TextWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+}
+
+#FormDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37%;
+}
+
+#FormWrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%; 
+}
+
+#ButtonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 20%;
+}
+
+#Logo {
+    height: 60%;
+}
+
+h1 {
+    font-weight: 750;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    font-weight: 250;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.FormLabel {
+    font-weight: 450;
+    padding: 0;
+    margin: 0 0 5px 0;
+}
+
+input {
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 7.5px;
+    background-color: #C1CAFD;
+    border: 0.5px solid #000;
+    padding: 0 15px;
+    font-weight: 350;
+    color: #000;
+    letter-spacing: 0.3px;
+}
+
+input::placeholder {
+    font-weight: 200;
+    color: #1E1E1E;
+}
+
+#LoginButton {
+    width: 100%;
+    height: 60px;
+    border-radius: 5px;
+    border: 0.5px solid #000;
+    font-weight: 650;
+    font-size: 18px;
+    background-color: #E1C23C;
+}
