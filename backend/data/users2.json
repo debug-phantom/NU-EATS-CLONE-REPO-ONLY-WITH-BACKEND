@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Admin User",
+    "email": "admin@nueats.com",
+    "password": "$2b$10$DNfyfqMVmGEdd0JDA11IKuMefn76IXm9VKRDz7k9b6tdwJRzFSW8S",
+    "role": "admin"
+  }
+]
